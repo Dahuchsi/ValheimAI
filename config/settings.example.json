@@ -1,0 +1,30 @@
+{
+  "agentName": "Bjorn",
+  "controller": {
+    "listenUrl": "http://127.0.0.1:8765/"
+  },
+  "steam": {
+    "appId": 892970,
+    "autoLaunch": true,
+    "launchArguments": ""
+  },
+  "server": {
+    "address": "",
+    "port": 2456,
+    "password": "",
+    "characterName": "Bjorn"
+  },
+  "ai": {
+    "provider": "openai",
+    "model": "gpt-5.6-luna",
+    "apiKeyEnvironmentVariable": "OPENAI_API_KEY"
+  },
+  "safety": {
+    "allowFollow": true,
+    "allowGather": false,
+    "allowCombat": false,
+    "allowSailing": false,
+    "allowBossSummoning": false,
+    "allowDevCommands": false
+  }
+}
